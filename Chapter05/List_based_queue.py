@@ -40,5 +40,5 @@ print(q.items)
 #[30, 40]
 
 
-a = q.size1()
+a = q.size
 print(a)
