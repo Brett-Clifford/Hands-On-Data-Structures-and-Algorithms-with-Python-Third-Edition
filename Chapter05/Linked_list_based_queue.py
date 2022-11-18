@@ -26,7 +26,6 @@ class Queue:
 
     def dequeue(self): 
         if self.count == 1: 
-            self.count -= 1 
             self.head = None 
             self.tail = None 
         elif self.count > 1: 
